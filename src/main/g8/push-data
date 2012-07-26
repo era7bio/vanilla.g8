@@ -1,0 +1,4 @@
+#!/bin/sh
+# assumes s3cmd installed and properly configured
+s3cmd sync -r --no-delete-removed \
+  ./data/ s3://era7p/$name$/data/

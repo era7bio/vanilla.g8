@@ -14,3 +14,7 @@ project/plugins/project/
 # st2
 *.sublime-project
 *.sublime-workspace
+
+# data folder
+data/in/
+data/out/
